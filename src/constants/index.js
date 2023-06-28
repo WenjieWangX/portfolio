@@ -3,26 +3,37 @@ import {
   backend,
   creator,
   web,
-  javascript,
+  python,
   typescript,
+  sql,
+  java,
+  javascript,
   html,
   css,
+  cshard,
+  matlab,
+  rstudio,
   reactjs,
-  redux,
-  tailwind,
+  angularjs,
+  flask,
+  django,
   nodejs,
-  mongodb,
+  jquery,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  linux,
+  unity,
+  mysql,
+  aws,
+  blackbaud,
+  fdr,
+  conncoll,
+  cornelltech,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  camelplanner,
+  sortingvisual,
+  sudoku,
 } from "../assets";
 
 export const navLinks = [
@@ -42,130 +53,197 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Data Scientist",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Cloud Engineer",
     icon: creator,
   },
 ];
 
-const technologies = [
+const programmingLanguages = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
+    name: "Python",
+    icon: python,
   },
   {
     name: "TypeScript",
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "C#",
+    icon: cshard,
+  },
+  {
+    name: "MATLAB",
+    icon: matlab,
+  },
+  {
+    name: "RStudio",
+    icon: rstudio,
+  },
+];
+
+const frameworks = [
+  {
+    name: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "AngularJS",
+    icon: angularjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Flask",
+    icon: flask,
   },
   {
-    name: "Node JS",
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "NodeJS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "jQuery",
+    icon: jquery,
   },
+];
+
+const developerTools = [
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Unity",
+    icon: unity,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Teaching Assistant",
+    company_name: "Connecticut College",
+    icon: conncoll,
+    iconBg: "#c2cccd",
+    cardBg: "#00305f",
+    date: "Sept 2021 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with professors to explain course material and effectively communicate it to students.",
+      "Offered academic guidance to undergraduate students in Computer Science and Statistics, supporting their success in coursework.",
+      "Evaluated assignments, giving constructive feedback to students to enhance their academic performance while maintaining confidentiality and professionalism.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer Intern",
+    company_name: "Blackbaud",
+    icon: blackbaud,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    cardBg:
+      "linear-gradient(5deg, rgba(94,182,80,1) 0%, rgba(20,170,215,1) 100%)",
+    date: "May 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Utilized AWS SDK and Python to develop a script for retrieving data from an AWS S3 Bucket.",
+      "Designed and implemented a single-page web application with visualization capabilities using Angular and .NET for analyzing and downloading A/B test data, resulting in a significant reduction in time spent on running and analyzing A/B tests.",
+      "Solved the challenge of fetching A/B test data from AWS S3 Bucket, improving data accessibility and enabling more efficient analysis.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "IGW Research Assistant",
+    company_name: "Connecticut College",
+    icon: conncoll,
+    iconBg: "#c2cccd",
+    cardBg: "#00305f",
+    date: "Sept 2022 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted research on the inverse generalized Weibull distribution, using RStudio to develop and implement statistical models to analyze the distribution’s characteristics and behavior.",
+      "Developed and implemented simulation tests and real world data test to validate and refine the statistical models, and ensure their accuracy and robustness.",
+      "Collaborated with Professor Yan Zhuang to review findings and make recommendations for further research or application of research outcomes.",
+    ],
+  },
+];
+
+const educations = [
+  {
+    school_name: "Franklin D. Roosevelt High School",
+    gpa: "94/100",
+    degree: "Diploma",
+    major: "",
+    icon: fdr,
+    iconBg: "#c2cccd",
+    cardBg: "#970b22",
+    date: "Sept 2015 - June 2019",
+    awards: ["Distinction in Mathematics", "Dean's High Honors"],
+  },
+  {
+    school_name: "Connecticut College",
+    gpa: "3.9/4",
+    degree: "Bachelor of Arts",
+    major: "Computer Science & Statistics and Data Science",
+    icon: conncoll,
+    iconBg: "#c2cccd",
+    cardBg: "#00305f",
+    date: "Aug 2019 - May 2023",
+    awards: [
+      "Distinction in Computer Sciences",
+      "Distinction in Statistics",
+      "Dean's High Honors",
+      "DataFest 2022 Best Business Application",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    school_name: "Cornell Tech",
+    gpa: "3.9/4",
+    degree: "Master of Engineering",
+    major: "Computer Science",
+    icon: cornelltech,
+    iconBg: "#c2cccd",
+    cardBg: "#B31B1B",
+    date: "Aug 2023 - May 2024",
+    awards: ["Merit Scholarships"],
   },
 ];
 
@@ -198,51 +276,50 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Camel Planner",
+    description: "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "boostrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: camelplanner,
+    source_code_link: "https://github.com/WenjieWangX/CamelPlanner",
+    website_link: "https://wenjie.digital.conncoll.edu",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Sorting Visualization",
+    description: "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "boostrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sortingvisual,
+    source_code_link: "https://github.com/WenjieWangX/sorting-visualization",
+    website_link: "https://wenjiewangx.github.io/sorting-visualization/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Sudoku",
+    description: "",
     tags: [
       {
         name: "nextjs",
@@ -257,9 +334,61 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: sudoku,
     source_code_link: "https://github.com/",
+    website_link: "https://wenjiewangx.github.io/sudoku/",
+  },
+  {
+    name: "Simple BestBuy Database & Visualization",
+    description: "",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sudoku,
+    source_code_link: "https://github.com/",
+    website_link: "https://wenjiewangx.github.io/sudoku/",
+  },
+  {
+    name: "Data Visualization",
+    description: "",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sudoku,
+    source_code_link: "https://github.com/",
+    website_link: "https://wenjiewangx.github.io/sudoku/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  programmingLanguages,
+  frameworks,
+  developerTools,
+  experiences,
+  educations,
+  testimonials,
+  projects,
+};

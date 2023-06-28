@@ -7,25 +7,37 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
+import python from "./tech/python.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
+import java from "./tech/java.png";
+import javascript from "./tech/javascript.png";
+import html from "./tech/html.png";
+import css from "./tech/css.png";
+import cshard from "./tech/cshard.png";
+import matlab from "./tech/matlab.png";
+import rstudio from "./tech/rstudio.png";
+import reactjs from "./tech/reactjs.png";
+import angularjs from "./tech/angular.png";
+import flask from "./tech/flask.png";
+import django from "./tech/django.png";
+import nodejs from "./tech/nodejs.png";
+import jquery from "./tech/jquery.png";
+import git from "./tech/git.png";
+import linux from "./tech/linux.png";
+import unity from "./tech/unity.png";
+import mysql from "./tech/mysql.png";
+import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import blackbaud from "./company/blackbaud.png";
 
+import fdr from "./school/fdr.png";
+import conncoll from "./school/connecticutcollege.png";
+import cornelltech from "./school/cornelltech.png";
+
+import sortingvisual from "./sortingvisual.png";
+import camelplanner from "./camelplanner.png";
+import sudoku from "./sudoku.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -39,23 +51,34 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
+  python,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  sql,
+  java,
+  javascript,
+  html,
+  css,
+  cshard,
+  matlab,
+  rstudio,
+  reactjs,
+  angularjs,
+  flask,
+  django,
+  nodejs,
+  jquery,
+  git,
+  linux,
+  unity,
+  mysql,
+  aws,
+  blackbaud,
+  fdr,
+  conncoll,
+  cornelltech,
+  camelplanner,
+  sortingvisual,
+  sudoku,
   carrent,
   jobit,
   tripguide,
