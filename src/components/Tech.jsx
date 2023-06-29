@@ -7,23 +7,6 @@ import { programmingLanguages, frameworks, developerTools } from "../constants";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
-const TechIcon = ({ idx, name, icon }) => {
-  return (
-    <Tilt
-      options={{
-        max: 45,
-        scale: 1,
-        speed: 450,
-      }}
-      className="bg-tertiary p-5 rounded-2xl w-fit"
-    >
-      <div className="relative w-[100px] h-[100px] flex justify-center items-center">
-        <img src={icon} alt={name} className="object-cover" />
-      </div>
-    </Tilt>
-  );
-};
-
 const Tech = () => {
   return (
     <>
@@ -32,64 +15,84 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Programming Languages.</h2>
       </motion.div>
 
-      <div className="gallery">
-        {programmingLanguages.map((programmingLanguage, idx) => (
-          <div
-            className={`w-fit h-fit bg-black-100 flex relative justify-center items-center ${
-              idx < 6 ? "first-row" : "second-row"
-            }`}
-            key={programmingLanguage.name}
-          >
-            <Tilt
-              options={{
-                max: 45,
-                scale: 1,
-                speed: 450,
-              }}
-            >
-              <img
-                src={programmingLanguage.icon}
-                alt={programmingLanguage.name}
-                className="bg-black-100 w-20 h-20"
-              />
-            </Tilt>
-          </div>
-          // <div className="w-28 h-28" key={programmingLanguage.name}>
-          //   <TechIcon
-          //     idx={idx}
-          //     name={programmingLanguage.name}
-          //     icon={programmingLanguage.icon}
-          //   />
-          // </div>
-        ))}
+      <div className="container">
+        <div className="gallery">
+          {programmingLanguages.map((programmingLanguage) => (
+            <div className={`w-fit h-fit`} key={programmingLanguage.name}>
+              <div className="w-full h-full bg-secondary flex relative justify-center items-center">
+                <Tilt
+                  options={{
+                    max: 45,
+                    scale: 1,
+                    speed: 450,
+                  }}
+                >
+                  <img
+                    src={programmingLanguage.icon}
+                    alt={programmingLanguage.name}
+                    className="bg-secondary w-20 h-20"
+                  />
+                </Tilt>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       <motion.div variants={textVariant()} className="mt-20">
         <h2 className={styles.sectionHeadText}>Frameworks.</h2>
       </motion.div>
 
-      <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
-        {frameworks.map((framework, idx) => (
-          <div className="w-28 h-28" key={framework.name}>
-            <TechIcon idx={idx} name={framework.name} icon={framework.icon} />
-          </div>
-        ))}
+      <div className="container">
+        <div className="gallery">
+          {frameworks.map((framework) => (
+            <div className={`w-fit h-fit`} key={framework.name}>
+              <div className="w-full h-full bg-secondary flex relative justify-center items-center">
+                <Tilt
+                  options={{
+                    max: 45,
+                    scale: 1,
+                    speed: 450,
+                  }}
+                >
+                  <img
+                    src={framework.icon}
+                    alt={framework.name}
+                    className="bg-secondary w-20 h-20"
+                  />
+                </Tilt>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
 
       <motion.div variants={textVariant()} className="mt-20">
         <h2 className={styles.sectionHeadText}>Developer Tools.</h2>
       </motion.div>
 
-      <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
-        {developerTools.map((developerTool, idx) => (
-          <div className="w-28 h-28" key={developerTool.name}>
-            <TechIcon
-              idx={idx}
-              name={developerTool.name}
-              icon={developerTool.icon}
-            />
-          </div>
-        ))}
+      <div className="container">
+        <div className="gallery">
+          {developerTools.map((developerTool) => (
+            <div className={`w-fit h-fit`} key={developerTool.name}>
+              <div className="w-full h-full bg-secondary flex relative justify-center items-center">
+                <Tilt
+                  options={{
+                    max: 45,
+                    scale: 1,
+                    speed: 450,
+                  }}
+                >
+                  <img
+                    src={developerTool.icon}
+                    alt={developerTool.name}
+                    className="bg-secondary w-20 h-20"
+                  />
+                </Tilt>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
