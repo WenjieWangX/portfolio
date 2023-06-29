@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import website from "./website.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -35,12 +36,13 @@ import fdr from "./school/fdr.png";
 import conncoll from "./school/connecticutcollege.png";
 import cornelltech from "./school/cornelltech.png";
 
-import sortingvisual from "./sortingvisual.png";
-import camelplanner from "./camelplanner.png";
-import sudoku from "./sudoku.png";
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import sortingvisual from "./projects/sortingvisual.png";
+import camelplanner from "./projects/camelplanner.png";
+import sudoku from "./projects/sudoku.png";
+import bestbuyrelational from "./projects/bestbuyrelational.png";
+import datavisualization from "./projects/datavisaulization.png";
+
+import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
 
 export {
   logo,
@@ -49,6 +51,7 @@ export {
   mobile,
   web,
   github,
+  website,
   menu,
   close,
   python,
@@ -79,7 +82,7 @@ export {
   camelplanner,
   sortingvisual,
   sudoku,
-  carrent,
-  jobit,
-  tripguide,
+  bestbuyrelational,
+  datavisualization,
+  practitioner,
 };
