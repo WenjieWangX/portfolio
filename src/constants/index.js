@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -28,12 +29,12 @@ import {
   fdr,
   conncoll,
   cornelltech,
-  carrent,
-  jobit,
-  tripguide,
   camelplanner,
   sortingvisual,
+  bestbuyrelational,
+  datavisualization,
   sudoku,
+  practitioner,
 } from "../assets";
 
 export const navLinks = [
@@ -247,30 +248,10 @@ const educations = [
   },
 ];
 
-const testimonials = [
+const certificates = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Certified AWS Practitioner",
+    image: practitioner,
   },
 ];
 
@@ -288,8 +269,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "boostrap",
+        name: "node",
         color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "cpanel",
+        color: "blue-text-graddient",
       },
     ],
     image: camelplanner,
@@ -322,20 +311,20 @@ const projects = [
     description: "",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "boostrap",
         color: "pink-text-gradient",
       },
     ],
     image: sudoku,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/WenjieWangX/sudoku",
     website_link: "https://wenjiewangx.github.io/sudoku/",
   },
   {
@@ -343,42 +332,55 @@ const projects = [
     description: "",
     tags: [
       {
-        name: "nextjs",
+        name: "mysql",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "boostrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "plotly",
+        color: "orange-text-gradient",
+      },
     ],
-    image: sudoku,
-    source_code_link: "https://github.com/",
-    website_link: "https://wenjiewangx.github.io/sudoku/",
+    image: bestbuyrelational,
+    source_code_link: "https://github.com/WenjieWangX/BestBuyDatabase",
+    website_link: "",
   },
   {
     name: "Data Visualization",
     description: "",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "plotly",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "postgresal",
         color: "pink-text-gradient",
       },
+      {
+        name: "docker",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "boostrap",
+        color: "blue-text-gradient",
+      },
     ],
-    image: sudoku,
-    source_code_link: "https://github.com/",
-    website_link: "https://wenjiewangx.github.io/sudoku/",
+    image: datavisualization,
+    source_code_link:
+      "https://github.com/WenjieWangX/Dockerized-Flask-PostgreSQL-Dashboard",
+    website_link: "",
   },
 ];
 
@@ -389,6 +391,6 @@ export {
   developerTools,
   experiences,
   educations,
-  testimonials,
+  certificates,
   projects,
 };

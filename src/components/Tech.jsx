@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { programmingLanguages, frameworks, developerTools } from "../constants";
 
@@ -18,7 +17,7 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {programmingLanguages.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} alt={technology.name} />
           </div>
         ))}
       </div>
@@ -30,7 +29,7 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {frameworks.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} alt={technology.name} />
           </div>
         ))}
       </div>
@@ -42,7 +41,7 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-20">
         {developerTools.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
-            <BallCanvas icon={technology.icon} />
+            <img src={technology.icon} alt={technology.name} />
           </div>
         ))}
       </div>
