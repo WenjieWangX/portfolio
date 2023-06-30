@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import fullstack from "./fullstack.png";
+import datascentist from "./datascientist.png";
+import softwareengineer from "./softwareengineer.png";
+import couldengineer from "./cloudengineer.png";
 import github from "./github.png";
 import website from "./website.png";
 import menu from "./menu.svg";
@@ -44,12 +44,14 @@ import datavisualization from "./projects/datavisaulization.png";
 
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
 
+import resume from "./Wenjie_Wang_Resume.pdf";
+
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  fullstack,
+  datascentist,
+  softwareengineer,
+  couldengineer,
   github,
   website,
   menu,
@@ -85,4 +87,5 @@ export {
   bestbuyrelational,
   datavisualization,
   practitioner,
+  resume,
 };
