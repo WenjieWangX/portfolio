@@ -5,7 +5,7 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { certificates } from "../constants";
 
-const FeedbackCard = ({ index, name, image }) => (
+const CertificateCard = ({ index, name, image }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="p-10 rounded-3xl xs:w-[320px] w-full"
@@ -22,7 +22,7 @@ const FeedbackCard = ({ index, name, image }) => (
   </motion.div>
 );
 
-const Feedbacks = () => {
+const Certificates = () => {
   return (
     <div className={`mt-12 bg-secondary rounded-[20px]`}>
       <div
@@ -37,11 +37,15 @@ const Feedbacks = () => {
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {certificates.map((certificate, index) => (
-          <FeedbackCard key={certificate.name} index={index} {...certificate} />
+          <CertificateCard
+            key={certificate.name}
+            index={index}
+            {...certificate}
+          />
         ))}
       </div>
     </div>
   );
 };
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Certificates, "certificates");

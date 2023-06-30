@@ -1,9 +1,8 @@
-import { color } from "framer-motion";
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  fullstack,
+  datascentist,
+  softwareengineer,
+  couldengineer,
   python,
   typescript,
   sql,
@@ -35,39 +34,60 @@ import {
   datavisualization,
   sudoku,
   practitioner,
+  resume,
 } from "../assets";
 
-export const navLinks = [
+const navLinks = [
   {
     id: "about",
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "works",
+    title: "Works",
+  },
+  {
+    id: "education",
+    title: "Education",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: resume,
+    title: "Resume",
   },
 ];
 
 const services = [
   {
     title: "Full Stack Web Developer",
-    icon: web,
+    icon: fullstack,
   },
   {
     title: "Data Scientist",
-    icon: mobile,
+    icon: datascentist,
   },
   {
     title: "Software Engineer",
-    icon: backend,
+    icon: softwareengineer,
   },
   {
     title: "Cloud Engineer",
-    icon: creator,
+    icon: couldengineer,
   },
 ];
 
@@ -385,6 +405,7 @@ const projects = [
 ];
 
 export {
+  navLinks,
   services,
   programmingLanguages,
   frameworks,

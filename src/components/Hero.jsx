@@ -5,9 +5,9 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-1/2 h-screen ml-40">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[240px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-tertiary" />
@@ -32,6 +32,20 @@ const Hero = () => {
               />
             </span>
           </h1>
+          <div className="w-full">
+            <p
+              className={`${styles.heroSubText} mt-2 text-white-100 flex w-full items-center`}
+            >
+              "Being the richest man in the cemetery doesn't matter to me. Going
+              to bed at night saying we've done something wonderful…that's what
+              matters to me."
+            </p>
+            <p
+              className={`${styles.heroSubText} mt-2 text-white-100 flex w-full flex-row-reverse`}
+            >
+              - Steve Jobs
+            </p>
+          </div>
         </div>
       </div>
 
