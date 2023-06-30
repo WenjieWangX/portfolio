@@ -6,12 +6,16 @@ module.exports = {
     extend: {
       colors: {
         primary: "#A4CAB6",
-        secondary: "#2C9678",
-        tertiary: "#248067",
+        secondary: "#248067",
+        tertiary: "#2C9678",
         quaternary: "#428675",
+        quinary: "#69A794",
+        senary: "#5DBEBA",
+        septenary: "#41B349",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
+        "gray-100": "#C2CCCD",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -26,5 +30,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-// #c2cccd

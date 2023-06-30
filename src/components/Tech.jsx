@@ -15,7 +15,7 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Programming Languages.</h2>
       </motion.div>
 
-      <div className="container">
+      <div className="container mt-20">
         <div className="gallery">
           {programmingLanguages.map((programmingLanguage) => (
             <div className={`w-fit h-fit`} key={programmingLanguage.name}>
@@ -43,7 +43,7 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Frameworks.</h2>
       </motion.div>
 
-      <div className="container">
+      <div className="container mt-20">
         <div className="gallery">
           {frameworks.map((framework) => (
             <div className={`w-fit h-fit`} key={framework.name}>
@@ -71,7 +71,7 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Developer Tools.</h2>
       </motion.div>
 
-      <div className="container">
+      <div className="container mt-20">
         <div className="gallery">
           {developerTools.map((developerTool) => (
             <div className={`w-fit h-fit`} key={developerTool.name}>
@@ -98,4 +98,4 @@ const Tech = () => {
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "skills");
