@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import fullstack from "./fullstack.png";
 import datascentist from "./datascientist.png";
 import softwareengineer from "./softwareengineer.png";
-import couldengineer from "./cloudengineer.png";
+import cloudengineer from "./cloudengineer.png";
 import github from "./github.png";
 import website from "./website.png";
 import menu from "./menu.svg";
@@ -51,7 +51,7 @@ export {
   fullstack,
   datascentist,
   softwareengineer,
-  couldengineer,
+  cloudengineer,
   github,
   website,
   menu,
