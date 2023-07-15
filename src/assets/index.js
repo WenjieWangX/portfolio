@@ -43,6 +43,7 @@ import bestbuyrelational from "./projects/bestbuyrelational.png";
 import datavisualization from "./projects/datavisaulization.png";
 
 import practitioner from "./certificates/aws-certified-cloud-practitioner.png";
+import solutionarchitect from "./certificates/aws-certified-solutions-architect-associate.png";
 
 import resume from "./Wenjie_Wang_Resume.pdf";
 
@@ -87,5 +88,6 @@ export {
   bestbuyrelational,
   datavisualization,
   practitioner,
+  solutionarchitect,
   resume,
 };

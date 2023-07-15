@@ -5,11 +5,11 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { certificates } from "../constants";
 
-const CertificateCard = ({ index, name, image }) => (
+const CertificateCard = ({ index, name, image, bgcolor }) => (
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className="p-10 rounded-3xl xs:w-[320px] w-full"
-    style={{ backgroundColor: "#252F3E" }}
+    style={{ backgroundColor: bgcolor }}
   >
     <div className="mt-1">
       {" "}
