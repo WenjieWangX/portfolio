@@ -8,6 +8,7 @@ import {
   Certificate,
   Hero,
   Navbar,
+  NavSocialMedia,
   Tech,
   Works,
   StarsCanvas,
@@ -22,6 +23,7 @@ const App = () => {
           <EarthCanvas />
           <StarsCanvas />
         </div>
+        <NavSocialMedia />
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />

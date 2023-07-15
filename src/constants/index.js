@@ -9,6 +9,7 @@ import experiences from "./experiences";
 import educations from "./educations";
 import certificates from "./certificates";
 import projects from "./projects";
+import socialMedias from "./socialMedias";
 
 export {
   navLinks,
@@ -20,4 +21,5 @@ export {
   educations,
   certificates,
   projects,
+  socialMedias,
 };
