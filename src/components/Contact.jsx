@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -26,9 +26,43 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    alert("success!!");
+    const serviceID = "service_63k6v61";
+    const templateID = "template_gmo5q9p";
+    const publicKey = "niHOh5HeyBiCy8eVW";
+    emailjs
+      .send(
+        serviceID,
+        templateID,
+        {
+          from_name: form.name,
+          to_name: "Wenjie",
+          from_email: form.email,
+          to_email: "jp1349785420@gmail.com",
+          message: form.message,
+        },
+        publicKey
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you for contacting me! I will get back to you as soon as possible."
+          );
 
-    setLoading(false);
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          alert(
+            "Something went wrong. Please try again in next couple minutes."
+          );
+        }
+      );
   };
 
   return (

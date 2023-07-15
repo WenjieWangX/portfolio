@@ -10,7 +10,7 @@ import {
   Navbar,
   NavSocialMedia,
   Tech,
-  Works,
+  Projects,
   StarsCanvas,
   EarthCanvas,
 } from "./components";
@@ -32,7 +32,7 @@ const App = () => {
         <Experience />
         <Education />
         <Tech />
-        <Works />
+        <Projects />
         <Certificate />
         <div className="relative z-0 bg-black-200">
           <Contact />
