@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import TypeWriter from "typewriter-effect";
 
 import { styles } from "../styles";
