@@ -19,11 +19,12 @@
   display: block;
 }
 
-.container {
+.gallery-container {
   display:flex;
   --s: 130px;  /* size  */
   --m: 10px;    /* margin */
   --f: calc(1.732 * var(--s) + 4 * var(--m)  - 1px);
+  overflow: auto;
 }
 
 .gallery {

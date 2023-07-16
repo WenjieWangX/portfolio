@@ -17,7 +17,7 @@ const Tech = () => {
 
       <motion.div
         variants={fadeIn("right", "spring", 0.5, 0.75)}
-        className="container mt-20"
+        className="gallery-container mt-20"
       >
         <div className="gallery">
           {programmingLanguages.map((programmingLanguage) => (
@@ -48,7 +48,7 @@ const Tech = () => {
 
       <motion.div
         variants={fadeIn("left", "spring", 0.5, 0.75)}
-        className="container mt-20"
+        className="gallery-container mt-20"
       >
         <div className="gallery">
           {frameworks.map((framework) => (
@@ -79,7 +79,7 @@ const Tech = () => {
 
       <motion.div
         variants={fadeIn("right", "spring", 0.5, 0.75)}
-        className="container mt-20"
+        className="gallery-container mt-20"
       >
         <div className="gallery">
           {developerTools.map((developerTool) => (
