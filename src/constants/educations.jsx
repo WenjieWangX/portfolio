@@ -30,14 +30,14 @@ const educations = [
   },
   {
     school_name: "Cornell Tech",
-    gpa: "3.9/4",
+    gpa: "",
     degree: "Master of Engineering",
     major: "Computer Science",
     icon: cornelltech,
     iconBg: "#c2cccd",
     cardBg: "#B31B1B",
     date: "Aug 2023 - May 2024",
-    awards: ["Merit Scholarships"],
+    awards: ["Merit Scholar"],
   },
 ];
 
